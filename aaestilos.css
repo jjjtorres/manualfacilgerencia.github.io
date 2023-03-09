@@ -300,13 +300,14 @@ li {
 
 .pantalla {
     width: 70%;
-	padding: 15px 15%;
+	padding: 5px 15%;
 }
 
 .pantalla_pie {
     font-size: 14px;
     font-weight: bold;
     text-align: center;
+    padding: 0;
 }
 
 .subrayado {
@@ -481,5 +482,4 @@ footer {
     background: blue;
     color: white;
     }
-    
     

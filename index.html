@@ -14,9 +14,10 @@
     <header>
     </header>
     <!-- FIN DE CODIGO DE CABECERA -->
-        <script type='text/javascript'>
-            document.oncontextmenu = function(){return false}
-        </script>    <div class="lateral">
+    <script type='text/javascript'>
+        document.oncontextmenu = function(){return false}
+    </script>
+    <div class="lateral">
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
@@ -52,12 +53,14 @@
                         <p>Agradecemos cualquier observación y estaremos gustosos de efectuar las adaptaciones requeridas
                             para actualizar el sistema a la brevedad posible.</p>
 
-                        <p>En todo momento dispone de la tecla (Ctrl-F3) para visualizar la calculadora</p>
+                        <p>En todo momento dispone de la combinación de teclas (Ctrl-F3) para visualizar la calculadora</p>
+
 
                         <p>Gracias por usar nuestros productos.</p><br />
                         <p class="pantalla_pie">Gerente de Diseño <br>
                         Jamilet Luis <br>
                         +58-414-250.76.32</p>
+                        <p>Última actualización del Sistema: Jueves 09 de Marzo de 2.023, 6:14 a.m.</p>
                     </article>
 
                     <HR align="CENTER" size="3" width="100%" color="black">
@@ -116,47 +119,53 @@
                         <div class="con-lista">
                             <ul>
                                 <a name="pdv1_ticket"></a>
-                                <img class="pantalla" src="pantalla-pdv1-ticket.png">
-                                <p class="pantalla_pie">Opción Facturar</p>
                                 <li>Facturación.</li>
-                                <P>Emisión de facturas.</P>
-                                <p>La emisión de la factura, en el caso de disponer de una Impresora Fiscal, el Sistema produce la salida automáticamente en el dispositivo configurado.
-                                     En caso contrario, presenta el formato de la factura a imprimir y puede seleccionar el dispositivo de su preferencia.
+                                <p>En caso de disponer de una Impresora Fiscal, el Sistema produce la salida automáticamente en el dispositivo configurado,
+                                     de no tener un dispositivo fiscal, presenta el formato de la factura a imprimir y puede seleccionar el dispositivo de su preferencia.
                                      El formato de la factura puede ser modificado en la opción Reportes del Menú Principal.
                                 </p>
                                 <p>Al proporcionar los datos del Cliente, el Sistema agrega el mismo en caso de no estar registrado, es necesario el RIF / Documento de Identidad y debe iniciar 
                                     con una letra válida (ej.: V, J, P, G). Recibe pagos en diferentes monedas, y le asiste con el vuelto en la moneda de su preferencia, 
                                     si maneja multiples vendedores puede seleccionarlos fácilmete de la lista, creada previamente en el Control de Vendedores.
                                      </p>
-
+                                     <h6 class="pantalla_pie">Opción Facturar</h6>
+                                     <img class="pantalla" src="pantalla-pdv1-ticket.png"><br>
+     
                                 <li>Caja.</li>
                                 <p>Imprime el Reporte Z, Reporte X, visualiza las ventas del días y puede seleccionar el
-                                    contenido de facturas para refacturar.</p>
+                                    contenido de una o varias facturas para utilizarlo en el Area de Trabajo.</p>
 
                                 <li>Clientes.</li>
-                                <P>Controla la ficha de clientes y los pagos de cuentas por cobrar.</P>
+                                <P>Controla la ficha de clientes y los pagos y/o abonos de cuentas por cobrar. Puede incluir deudas pendientes del Cliente.</P>
 
                                 <a name="pdv1_cotiza"></a>
                                 <li>Cotizaciones.</li>
-                                <img class="pantalla" src="pantalla-pdv1-cotiza.png">
-                                <p class="pantalla_pie">Opción Cotizaciones</p>
                                 <p>Permite cotizar los productos que se encuentran en el Area de Trabajo, debe indicar el Cliente y Vendedor, de manera que pueda agendar y hacer el seguimiento de este
-                                    documento y manejar el CRM en su empresa.</p>
-
+                                    documento y manejar el CRM en su empresa.
+                                </p>
+                                <h6 class="pantalla_pie">Opción Cotizaciones</h6>
+                                <img class="pantalla" src="pantalla-pdv1-cotiza.png">
+    
                                 <a name="pdv1_pedido"></a>
                                 <li>Pedidos.</li>
-                                <img class="pantalla" src="pantalla-pdv1-pedidos.png">
-                                <p class="pantalla_pie">Opción Pedidos</p>
                                 <p>Permite hace los pedidos a los Clientes Prospecto, debe indicar el Cliente y Vendedor, de manera que pueda agendar y hacer el seguimiento de este
-                                    documento y manejar el CRM en su empresa.</p>
+                                    documento y manejar el CRM en su empresa.
+                                </p>
+                                <h6 class="pantalla_pie">Opción Pedidos</h6>
+                                <img class="pantalla" src="pantalla-pdv1-pedidos.png">
 
                                 <li>Despacho - Ordenes de despachos.</li>
                                 <p>Genera la salida de productos del almacén, permite agendar el seguimiento de este
-                                    documento y manejar el CRM en su empresa.</p>
+                                    documento y manejar el CRM en su empresa.
+                                </p>
+                                <h6 class="pantalla_pie">Opción Despacho</h6>
+                                <img class="pantalla" src="pantalla-orden-despacho.png">
 
                                 <li>Pendiente - Documentos por facturar.</li>
                                 <p>Controla las cotizaciones, pedidos y ordenes de despacho que aún no se han facturado
                                 </p>
+                                <h6 class="pantalla_pie">Opción Pendiente</h6>
+                                <img class="pantalla" src="pantalla-pendientes.png">
                                 <p class="subrayado">Agendado - Manejo de CRM.</p>
                                 <p>Permite el control de las táreas del personal de venta, haciendo seguimiento de las
                                     pautas agendadas en pedidos, cotizaciones y ordenes de despacho, las cuales no han
@@ -208,10 +217,10 @@
                                     </p>
                                 </li>
                                 <li>Suma (+).
-                                    <p>Agrega una unidad a la cantidad del registro en el área de trabajo.</p>
+                                    <p>Agrega una unidad a la cantidad del registro seleccionado en el área de trabajo.</p>
                                 </li>
                                 <li>Resta (-).
-                                    <p>Disminuye en una unidad la cantidad del registro indicado en el área de trabajo,
+                                    <p>Disminuye en una unidad la cantidad del registro seleccionado en el área de trabajo,
                                         si el valor llega a cero el sistema le preguntara si desea eliminar el registro
                                         indicado. </p>
                                 </li>
@@ -223,9 +232,8 @@
                                 </li>
                                 <li>Peso.
                                     <p>Realiza la lectura de la balanza conectada a la estación de trabajo, permitiendo
-                                        alterar la cantidad del producto que se está facturando, siempre y cuando este
-                                        producto tenga la condición en su ficha, que requiere utilizar el Pesaje
-                                        correspondiente. La configuración del puerto de la balanza se efectua en
+                                        alterar la cantidad del producto que se está facturando, siempre y cuando el
+                                        producto tenga la condición de PESADO en su ficha. La configuración del puerto de la balanza se efectua en
                                         Opciones del Sistema.</p>
                                 </li>
                                 <li>Campo Código.
