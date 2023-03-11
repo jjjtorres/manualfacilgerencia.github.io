@@ -60,7 +60,7 @@
                         <p class="pantalla_pie">Gerente de Diseño <br>
                         Jamilet Luis <br>
                         +58-414-250.76.32</p>
-                        <p>Última actualización del Sistema: Jueves 09 de Marzo de 2.023, 6:14 a.m.</p>
+                        <p class="actualizacion">Última actualización del Sistema: Jueves 10 de Marzo de 2.023, 11:06 a.m.</p>
                     </article>
 
                     <HR align="CENTER" size="3" width="100%" color="black">
@@ -130,7 +130,8 @@
                                      </p>
                                      <h6 class="pantalla_pie">Opción Facturar</h6>
                                      <img class="pantalla" src="pantalla-pdv1-ticket.png"><br>
-     
+                                     <HR class="separador_boton">
+
                                 <li>Caja.</li>
                                 <p>Imprime el Reporte Z, Reporte X, visualiza las ventas del días y puede seleccionar el
                                     contenido de una o varias facturas para utilizarlo en el Area de Trabajo.</p>
@@ -145,6 +146,7 @@
                                 </p>
                                 <h6 class="pantalla_pie">Opción Cotizaciones</h6>
                                 <img class="pantalla" src="pantalla-pdv1-cotiza.png">
+                                <HR class="separador_boton">
     
                                 <a name="pdv1_pedido"></a>
                                 <li>Pedidos.</li>
@@ -153,6 +155,7 @@
                                 </p>
                                 <h6 class="pantalla_pie">Opción Pedidos</h6>
                                 <img class="pantalla" src="pantalla-pdv1-pedidos.png">
+                                <HR class="separador_boton">
 
                                 <li>Despacho - Ordenes de despachos.</li>
                                 <p>Genera la salida de productos del almacén, permite agendar el seguimiento de este
@@ -160,16 +163,20 @@
                                 </p>
                                 <h6 class="pantalla_pie">Opción Despacho</h6>
                                 <img class="pantalla" src="pantalla-orden-despacho.png">
+                                <HR class="separador_boton">
 
                                 <li>Pendiente - Documentos por facturar.</li>
                                 <p>Controla las cotizaciones, pedidos y ordenes de despacho que aún no se han facturado
                                 </p>
-                                <h6 class="pantalla_pie">Opción Pendiente</h6>
-                                <img class="pantalla" src="pantalla-pendientes.png">
                                 <p class="subrayado">Agendado - Manejo de CRM.</p>
                                 <p>Permite el control de las táreas del personal de venta, haciendo seguimiento de las
                                     pautas agendadas en pedidos, cotizaciones y ordenes de despacho, las cuales no han
-                                    sido facturadas</p>
+                                    sido facturadas, visualizando en forma dinámica el rango de fechas agendadas. <br>
+                                    Cuenta con Opciones de Busqueda en la parte superior y con comandos en la sección derecha de la pantalla: 
+                                </p>
+                                <h6 class="pantalla_pie">Opción Pendiente - Documentos por Facturar</h6>
+                                <img class="pantalla" src="pantalla-pendientes.png">
+                                <HR class="separador_boton">
 
                                 <li>Vendedores.</li>
                                 <p>Maneja los vendedores de la empresa</p>
@@ -178,9 +185,8 @@
                                 <p>Para devolver una factura fiscal y reponer la existencia en el almacén.</p>
                             </ul>
                         </div>
-                        <br>
                         <p>
-                            Este módulo de ventas también dispone de facilitadores que le permiten efectuar la
+                            El módulo de Ventas también dispone de comandos que le permiten efectuar la
                             facturación mas eficientemente. Por ejemplo dispone de un menú de acceso rápido, el cual lo
                             edita a la conveniencia de los grupos de productos o los que tengan la mayor
                             rotación de su almacén.
@@ -200,59 +206,71 @@
                     </article>
                 </section>
                 <section>
-                    <br>
-                    <br>
-                    <center><img src="separador-texto2.png" width="30%" height="10px" alt="separador-texto2" /></center>
-                    <br><br>
+                    <img src="separador-texto2.png" class="separador_texto">
                     <!-- BOTONES PANTALLA VENTAS -->
                     <article>
-                        <h3>Botones de la Pantalla de Ventas</h3><br>
+                        <h3>Comandos de la Pantalla de Ventas</h3><br>
                         <center><img src="botones-pantalla-ventas.png" width="65%"></center><br>
                         <div id="lista-ventas" class="con-lista">
                             <ul>
-                                <li>
-                                    Buscar (/).
-                                    <p>
-                                        Da acceso de la lista de productos y servicios en el almacén.
-                                    </p>
-                                </li>
-                                <li>Suma (+).
-                                    <p>Agrega una unidad a la cantidad del registro seleccionado en el área de trabajo.</p>
-                                </li>
-                                <li>Resta (-).
-                                    <p>Disminuye en una unidad la cantidad del registro seleccionado en el área de trabajo,
-                                        si el valor llega a cero el sistema le preguntara si desea eliminar el registro
-                                        indicado. </p>
-                                </li>
-                                <li>Quitar.
-                                    <p>Elimina el registro indicado en el área de trabajo.</p>
-                                </li>
-                                <li>Limpiar.
-                                    <p>Elimina todos los registro del área de trabajo.</p>
-                                </li>
-                                <li>Peso.
-                                    <p>Realiza la lectura de la balanza conectada a la estación de trabajo, permitiendo
+                                <li>Buscar (/).</li>
+                                <p>Da acceso de la lista de productos y servicios en el almacén.</p>
+                                <li>Suma (+).</li>
+                                <p>Agrega una unidad a la cantidad del registro seleccionado en el área de trabajo.</p>
+                                <li>Resta (-).</li>
+                                <p>Disminuye en una unidad la cantidad del registro seleccionado en el área de trabajo,
+                                        si el valor llega a cero el sistema le preguntará si desea eliminar el registro
+                                        indicado.
+                                </p>
+                                <li>Quita </li>
+                                <p>Elimina el registro indicado en el área de trabajo.</p>
+                                <li>Limpiar. </li>
+                                <p>Elimina todos los registro del área de trabajo.</p>
+                                
+                                <li>Peso.</li>
+                                <p>Realiza la lectura de la balanza conectada a la estación de trabajo, permitiendo
                                         alterar la cantidad del producto que se está facturando, siempre y cuando el
                                         producto tenga la condición de PESADO en su ficha. La configuración del puerto de la balanza se efectua en
-                                        Opciones del Sistema.</p>
-                                </li>
-                                <li>Campo Código.
-                                    <p>Puede escribir directamente el código del producto o leer el código de barra del
-                                        mismo, así como indicar parcialmente el nombre del producto y presionar (enter)
-                                        para acceder a la búsqueda del dichos productos. </p>
-                                </li>
-                                <li>Campo Cantidad.
-                                    <p>Cambia la cantidad del producto seleccionado en el área de trabajo. </p>
-                                </li>
-                                <li>Campo Precio.
-                                    <p>Cambia el precio actual del producto seleccionado en el área de trabajo.</p>
-                                </li>
+                                        Opciones del Sistema.
+                                </p>
+                            
+                                <li>Pedido XLS. </li>
+                                <p>Permite cargar una Hoja-Pedido de un Cliente y facturar en base a lo solicitado en la Hoja-Pedido. <br>
+                                        La Hoja-Pedido se crea en el Almacén, permitiendo el envio y la edición de la misma en un manejador de hojas de calculo, incluso en un dispositivo movil y 
+                                        luego enviarla para su proceso por medio de este Comando.
+                                </p>
+                            
+                                <li>Seriales </li>
+                                <p>Muestra la ventana de Seriales disponibles del Producto, donde podrá asignarlos a la presente factura.</p>
+                                
+                                <li>Actualiza </li>
+                                <p>Refresca el contenido del Area de Trabajo</p>
+                                
                             </ul>
                         </div>
                     </article>
-                    <br><br>
-                    <center><img src="separador-texto2.png" width="30%" height="10px" alt="separador-texto2" /></center>
-                    <br><br>
+                    <img src="separador-texto2.png" class="separador_texto">
+                    <article>
+                        <h3>Campos de búsqueda y modificadores</h3><br>
+                        <center><img src="ventas-campos-modificadores.png" width="65%"></center><br>
+                        <div id="lista-ventas" class="con-lista">
+                            <ul>
+                                <li>Campo Código.</li>
+                                <p>Puede escribir directamente el código del producto o leer el código de barra del
+                                        mismo, así como indicar parcialmente el nombre del producto y presionar (enter)
+                                        para acceder a la búsqueda del dichos productos. 
+                                </p>
+                                
+                                <li>Campo Precio. </li>
+                                <p>Cambia el precio actual del producto seleccionado en el área de trabajo.</p>
+                                
+                                <li>Campo Cantidad. </li>
+                                <p>Cambia la cantidad del producto seleccionado en el área de trabajo, tiene incrementos en décimas, y una precisión de milésimas.</p>
+                                
+                            </ul>
+                        </div>
+                    </article>
+                    <img src="separador-texto2.png" class="separador_texto">
                     <!-- MENÚ DE ACCESO RAPIDO -->
                     <article>
                         <h2></h2>
@@ -264,7 +282,6 @@
                             esquema sumamente sencillo e intuitivo.
                         </p>
                     </article>
-
                     <br>
                 </section>
                 <a name="almacen"></a>
@@ -275,47 +292,52 @@
                         <h2 class="subrayado">Almacén y Servicios</h2>
                         <img class="pantalla" src="pantalla-almacen.png">
                         <p class="pantalla_pie">
-                            Manejo de productos y servicios de la empresa:
+                            Manejo de productos y Servicios de la empresa:
                         </p>
-
                         <div class="con-lista">
                             <ul>
-                                <li>Nuevo.
-                                    <p>
-                                        Permite crear un producto o servicio en el almacén .
-                                    </p>
-                                </li>
-                                <li>Editar.
+                                <li>Nuevo. </li>
+                                    <p>Permite crear un producto o servicio en el almacén.</p>
+                                
+                                <li>Editar. </li>
                                     <p>Edita los valor de un servicio en el almacén.</p>
-                                </li>
-                                <li>Borrar.
+                                
+                                <li>Borrar. </li>
                                     <p>Elimina el registro indicado del almacén . </p>
-                                </li>
-                                <li>Existencia.
+                                
+                                <li>Existencia. </li>
                                     <p>Permite crear el levantamiento del conteo físico del producto indicado.</p>
-                                </li>
-                                <li>Seriales.
+                                
+                                <li>Seriales. </li>
                                     <p>Controla la creación de seriales de un producto, así como la creación de lotes
-                                        con fechas de vencimientos.</p>
-                                </li>
-                                <li>Componentes.
+                                        con fechas de vencimientos.
+                                    </p>
+                                
+                                <li>Componentes. </li>
                                     <p>Permite indicarle a el sistema los productos o servicios que conforman un
                                         producto en el sistema, también ofrece la opción de generar la producción con
-                                        los componentes indicados. </p>
-                                </li>
-                                <li>Producción.
+                                        los componentes indicados.
+                                    </p>
+                                
+                                <li>Producción. </li>
                                     <p>Explora los diferentes documentos de producción permitiendo la creación y
-                                        modificación de los mismos. </p>
-                                </li>
-                                <li>Recalcular.
+                                        modificación de los mismos.
+                                    </p>
+                                
+                                <li>Recalcular. </li>
                                     <p>Recalcula el Precio de Venta de los Productos que tengan activada la opción de
                                         recalculo automático.</p>
-                                </li>
+                                
+                                <li>Generar XLS </li>
+                                    <p>Crea la Hoja-Pedido con la selección indicada, seguidamente se envia los Vendedores o Clientes, donde la pueden modificar incluso en el 
+                                        dispositivo movil de su preferencia, movil, tablet y luego procesarla en el Módulo de Ventas en forma automática.</p>
+                                
                             </ul>
-
+                            <img src="separador-texto2.png" class="separador_texto">
                             <p>
-                                Esta pantalla también le permite una búsqueda rápida por el código/nombre del producto o
-                                servicio en el almacén.
+                                Esta pantalla también le permite una búsqueda rápida por las opciones presentadas en la parte superior de la pantalla, 
+                                con dos (2) tipos de visualizaciones de la condición de la consulta solicitada, la pantalla indica el Último código de la consulta 
+                                y la cantidad de registros de Productos / Servicios obtenidos en la misma.
                             </p>
                         </div>
                     </article>
@@ -333,28 +355,28 @@
                             <ul>
                                 <li>Proveedores.</li>
                                 <P>Debe indicar el código de proveedor o utilizar el botón de buscar para crear un nuevo
-                                    proveedor o seleccionar una ya existente.</P>
+                                    proveedor o seleccionar uno ya existente.</P>
 
                                 <li>Facturas de Compras.</li>
                                 <p>Indique el nuevo número de facturas de compras o utilice el botón de buscar para
                                     modificar una compra existente.</p>
 
                                 <li>Fecha.</li>
-                                <P>Indique la fecha de la compra y luego usé el botón de iniciar compra para activar el
+                                <p>Indique la fecha de la compra y luego usé el botón de iniciar compra para activar el
                                     área de trabajo de compra. El sistema le ofrece la posibilidad de ingresar sus
                                     compras en divisa o en moneda nacional, es importante que
                                     los productos estén registrados previamente en el almacén. Al finalizar el registro
-                                    de la compra utilice el botón grabar compras.</P>
-
-                                <li>Retenciones.</li>
-                                <p>Permite crear las retenciones de Iva y generar el libro de compras.</p>
+                                    de la compra utilice el botón grabar compras. <br>
+                                    En caso de no existir el Producto / Servicio puede crearlo en el Comando Ir al Almacén
+                                     que se encuentra en la pantalla de busqueda.
+                                </p>
 
                             </ul>
                         </div>
                         <br>
                         <p>
-                            Este módulo de compra le facilitará la rápida ubicación de las diferentes facturas de
-                            compras de sus proveedores.
+                            Este módulo le facilitará la rápida ubicación de las diferentes facturas de
+                            compras de sus proveedores. Puede apoyarse en los Reportes de Compras para obtener la información en un rango de fechas.
                         </p>
                     </article>
                 </section>
@@ -375,8 +397,7 @@
                             retenciones de IVA y ISLR, vamos a describir las diferentes funciones que encontraras en el
                             mismo:
                         </p>
-                        <center><img src="separador-texto2.png" width="30%" height="10px" alt="separador-texto2" />
-                        </center><br><br>
+                        <img src="separador-texto2.png" class="separador_texto">
 
                         <h3>BOTONES DE COMANDOS EN LA PANTALLA DE RETENCIONES</h3>
 
@@ -521,8 +542,8 @@
                                     <li>6. Recontruir</li>
                                     <p>
                                         Proceso a realizar cada vez que se efectue una actualización, se le recuerda que
-                                        debe respaldar su Sistema previo a efectuar las actualizaciones, yambién indicar
-                                        que el costo de la actualización de su Versión, es gratuita, si requiere
+                                        debe respaldar su Sistema previo a efectuar las actualizaciones, 
+                                        el costo de la actualización de su Versión, es gratuita, si requiere
                                         asistencia, puede tener costos de servicio.
                                     </p>
                                     <li>7. Importar Datos</li>
@@ -531,10 +552,10 @@
                                         tabla DBF, contruida para tal fin, de manera que la migración de datos desde
                                         otro sistema no sea traumático para el Usuario Final.
                                     </p>
-                                    <li>8. Apariencia</li>
+                                    <li>8. Verificar Actualizaciones</li>
                                     <p>
-                                        Le informa al sistema los colores de preferencia para ciertos procedimientos CRM
-                                        de l Sistema.
+                                        Le informa si la versión que posee tiene nuevas actualizaciones, de igual forma en el manual del Sistema, se indica
+                                        la fecha de la última actualización.
                                     </p>
                                 </ul>
                             </div>
@@ -558,7 +579,7 @@
                             automáticamente, en caso de cambio de equipo o problemas con su computador.
                         </p>
                         <p>Por ejemplo, si decide cambiar de equipo, solo respalde sus datos, instale el sistema, y
-                            recupere su información, al ingresar nuevamente al sistema estará disfrutando de su
+                            recupere su información, solicite la activación al Centro de Soporte para disponer de su
                             operatividad sin inconvenientes.</p>
 
                         <h4>CONFIGURACIONES DEL SISTEMA</h4>
@@ -569,8 +590,7 @@
                             con el papel tamaño carta para tener resultados óptimos con los formatos del sistema.</p>
                         <p>En caso de necesitar soporte en la instalación, comuníquese con nosotros y con gusto lo
                             ayudaremos en todo lo posible para el correcto funcionamiento del sistema, así como también
-                            le ofrecemos asesoría para la optimización
-                            de sus sistemas computarizados,</p>
+                            le ofrecemos asesoría para la optimización de sus sistemas computarizados.</p>
                         <a name="contacto"></a>
                         <br />
                     </div>

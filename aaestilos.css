@@ -315,6 +315,39 @@ li {
     padding: 15px 0;
 }
 
+.separador_boton {
+    width: 50%;
+    height: 2px;
+    color: blue;
+    background-color: gray;
+    margin: 10px auto 20px auto;
+/*    size: 3;
+    width: 70%;
+    color: blue;
+    padding: auto;*/
+}
+
+
+.separador_texto {
+    width: 30%;
+    height: 10px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+/*    size: 3;
+    width: 70%;
+    color: blue;
+    padding: auto;*/
+}
+
+.actualizacion {
+    color: #060696;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 #lista-ventas {
     margin: 0 10%;
 }
